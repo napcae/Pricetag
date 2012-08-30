@@ -1,0 +1,12 @@
+{
+  "name": "Price Tag",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Find any price tag of your product on any website",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "http://api.flickr.com/"
+  ]
+}
