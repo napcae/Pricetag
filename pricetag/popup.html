@@ -1,0 +1,27 @@
+<html>
+	<head>
+
+	<script type="text/javascript">
+	function asd {
+		var Aussage = "Wir wollen weisse Waesche waschen";
+		var Ergebnis = Aussage.search(/weiss.+/);
+		if (Ergebnis != -1)
+		  alert("gefunden");
+	}
+	</script>
+	<style>
+		body, input, table, td { font-family: arial; font-size: 12px; }
+		#count { display: block; }
+	</style>
+	 <!--   <script src="popup.js"></script> -->
+	</head>
+	<body>
+		<table>
+			<tr>
+				<td><span id="count"></span></td>
+				<td><input type="button" value="search" onclick="alert('Überraschung!');"></td>
+			</tr>
+		</table>
+	</body>
+</html>
+
